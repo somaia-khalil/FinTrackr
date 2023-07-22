@@ -14,9 +14,9 @@ const Home = () => {
             <p>Get started now to take control of your financial journey.</p>
             <p>FinTrackr is built using the following technologies:</p>
             <ul>
-                <li><a href='https://reactjs.org/'>React</a> for the responsive and interactive client-side code</li>
-                <li><a href='https://get.asp.net/'>ASP.NET Core</a> and <a href='https://msdn.microsoft.com/en-us/library/67ef8sbd.aspx'>C#</a> for robust and cross-platform server-side code</li>
-                <li><a href='http://getbootstrap.com/'>Bootstrap</a> for a clean and user-friendly layout</li>
+                <li><a href='https://reactjs.org/'>React</a> for the responsive and interactive client-side code.</li>
+                <li><a href='https://get.asp.net/'>ASP.NET Core</a> and <a href='https://msdn.microsoft.com/en-us/library/67ef8sbd.aspx'>C#</a> for robust and cross-platform server-side code.</li>
+                <li><a href='http://getbootstrap.com/'>Bootstrap</a> for a clean and user-friendly layout.</li>
             </ul>
             <p>Our application provides the following features:</p>
             <ul>
