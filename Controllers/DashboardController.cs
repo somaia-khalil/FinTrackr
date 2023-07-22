@@ -3,19 +3,19 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace FinTrackr.Controllers
 {
-    [Authorize]
+//    [Authorize]
     [ApiController]
-    [Route("[controller]")]
-    public class WeatherForecastController : ControllerBase
+    [Route("api/[controller]")]
+    public class DashboardController : ControllerBase
     {
         private static readonly string[] Summaries = new[]
         {
         "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
     };
 
-        private readonly ILogger<WeatherForecastController> _logger;
+        private readonly ILogger<DashboardController> _logger;
 
-        public WeatherForecastController(ILogger<WeatherForecastController> logger)
+        public DashboardController(ILogger<DashboardController> logger)
         {
             _logger = logger;
         }

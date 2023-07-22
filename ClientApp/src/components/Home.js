@@ -1,26 +1,32 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-export class Home extends Component {
-  static displayName = Home.name;
-
-  render() {
+const Home = () => {
     return (
-      <div>
-        <h1>Hello, world!</h1>
-        <p>Welcome to your new single-page application, built with:</p>
-        <ul>
-          <li><a href='https://get.asp.net/'>ASP.NET Core</a> and <a href='https://msdn.microsoft.com/en-us/library/67ef8sbd.aspx'>C#</a> for cross-platform server-side code</li>
-          <li><a href='https://facebook.github.io/react/'>React</a> for client-side code</li>
-          <li><a href='http://getbootstrap.com/'>Bootstrap</a> for layout and styling</li>
-        </ul>
-        <p>To help you get started, we have also set up:</p>
-        <ul>
-          <li><strong>Client-side navigation</strong>. For example, click <em>Counter</em> then <em>Back</em> to return here.</li>
-          <li><strong>Development server integration</strong>. In development mode, the development server from <code>create-react-app</code> runs in the background automatically, so your client-side resources are dynamically built on demand and the page refreshes when you modify any file.</li>
-          <li><strong>Efficient production builds</strong>. In production mode, development-time features are disabled, and your <code>dotnet publish</code> configuration produces minified, efficiently bundled JavaScript files.</li>
-        </ul>
-        <p>The <code>ClientApp</code> subdirectory is a standard React application based on the <code>create-react-app</code> template. If you open a command prompt in that directory, you can run <code>npm</code> commands such as <code>npm test</code> or <code>npm install</code>.</p>
-      </div>
+        <div>
+            <h1>FinTrackr - Shape Your Financial Future</h1>
+            <p>Welcome to FinTrackr, your personal finance tracker application!</p>
+            <p>With FinTrackr, you can:</p>
+            <ul>
+                <li>Track your income and expenses</li>
+                <li>Set and manage budgets</li>
+                <li>Generate detailed reports and visualizations</li>
+            </ul>
+            <p>Get started now to take control of your financial journey.</p>
+            <p>FinTrackr is built using the following technologies:</p>
+            <ul>
+                <li><a href='https://reactjs.org/'>React</a> for the responsive and interactive client-side code</li>
+                <li><a href='https://get.asp.net/'>ASP.NET Core</a> and <a href='https://msdn.microsoft.com/en-us/library/67ef8sbd.aspx'>C#</a> for robust and cross-platform server-side code</li>
+                <li><a href='http://getbootstrap.com/'>Bootstrap</a> for a clean and user-friendly layout</li>
+            </ul>
+            <p>Our application provides the following features:</p>
+            <ul>
+                <li><strong>Easy navigation</strong>. Move between different sections seamlessly to manage your finances efficiently.</li>
+                <li><strong>Real-time updates</strong>. All your changes are saved instantly, and you can see your financial status updated in real-time.</li>
+                <li><strong>Secure data storage</strong>. Your personal finance data is stored safely and accessed only by you.</li>
+            </ul>
+            <p>To begin using FinTrackr, sign up or log in to your account.</p>
+        </div>
     );
-  }
-}
+};
+
+export default Home;
